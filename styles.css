@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Space Mono'), local('SpaceMono-Regular'), url(https://fonts.gstatic.com/s/spacemono/v5/i7dPIFZifjKcF5UAWdDRYEF8RQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Space Mono Italic'), local('SpaceMono-Italic'), url(https://fonts.gstatic.com/s/spacemono/v5/i7dNIFZifjKcF5UAWdDRYERMR3K_.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  font-style: bold;
+  font-weight: 700;
+  src: local('Space Mono Bold'), local('SpaceMono-Bold'), url(https://fonts.gstatic.com/s/spacemono/v5/i7dMIFZifjKcF5UAWdDRaPpZUFWaHg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Concert One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Concert One'), local('ConcertOne-Regular'), url(https://fonts.gstatic.com/s/concertone/v10/VEM1Ro9xs5PjtzCu-srDqSTijP4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Kavoon';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kavoon'), local('Kavoon-Regular'), url(https://fonts.gstatic.com/s/kavoon/v9/pxiFyp4_scRYhlUIM7D7.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+h1 {
+  margin-left: 20px;
+  font-family: "Space Mono";
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+}
+
+h2 {
+  margin-right: 20px;
+  font-family: "Concert One";
+  font-size: 22px;
+  text-align: right;
+}
+
+li {
+  font-family: "Kavoon";
+  font-size: 14px;
+}
+
+.estilos p {
+  margin-right: 20px;
+  font-family: "Kavoon";
+  font-size: 14px;
+  text-align: right;
+}
+
+.listacolores li {
+  text-align: center;
+  height: 75px;
+  width: 40%;
+  margin: 2px auto;
+  display: inline-block;
+}
+
+.colores, .fuentes, .estilos {
+  border: 2px solid #A9A9A9;
+  width: 100%;
+  margin: 2px auto;
+}
+
+.listacolores {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.listacolores #azul {
+  background-color: #2d5dcc;
+  color: white;
+}
+
+.listacolores #rosa {
+  background-color: #d957d9;
+}
+
+.listacolores #verde {
+  background-color: #4fe0b0;
+}
+
+.listacolores #beige {
+  background-color: #efd9ca;
+}
+
+.spacemono, .concertone, .kavoon {
+  height: auto;
+  width: auto;
+  display: inline-block;
+  margin: 5px 10px 2px 10px;
+  position: relative;
+}
+
+#spacenormal {
+  font-family: "Space Mono"; 
+}
+
+#spacebold {
+  font-family: "Space Mono";
+  font-weight: bold;
+}
+
+#spaceitalic {
+  font-family: "Space Mono";
+  font-style: italic;
+}
+
+#concertnormal {
+  font-family: "Concert One";
+}
+
+#kavoonormal {
+  font-family: "Kavoon";
+}
